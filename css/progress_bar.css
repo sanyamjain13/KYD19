@@ -1,0 +1,50 @@
+.status_icons{
+	width: 50%;
+	font-size: 25px;
+	padding-left: 11%;
+	padding-right: 11%;
+	padding-top: 5.5%;
+	padding-bottom: 5.5%; 
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid #5bc0de;
+}
+
+.widget{
+	width: 8.5%;
+	padding: none;
+	text-align: center;
+	font-size: 12px;
+	color:#eee;
+}
+
+.widget-text{
+	padding-top: 3px;
+}
+
+.custom-hr-dashed,.custom-hr-solid{
+	margin-top:1.8%;
+	margin-left: -1.9%;
+	margin-right: -1.9%;
+	width: 8%;
+}
+
+.custom-hr-dashed{
+	border: 2px dashed #5bc0de;
+}
+
+.custom-hr-solid{
+	border: 2px solid white ;
+}
+
+.glow{
+	box-shadow: 0 0 3px 1px white;
+}
+
+@media  and (max-width: 800px) {
+
+	.status_icons{
+		width: 6%;
+	}
+	
+}

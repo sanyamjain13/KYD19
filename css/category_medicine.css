@@ -1,0 +1,68 @@
+/* CSS OF MEDICINE CATEGORY*/
+
+/* SIDE BAR OF BUY MEDICINE */
+#sidebar_buy_med{
+	height: 100%;
+	width: 350px;
+	overflow-x: hidden;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: auto;
+	border-right: 1px solid #eee;
+}
+
+.sidebar_head{
+	font-size: 14.5px;
+	letter-spacing: 1px;
+
+}
+
+/* MAIN CONTENT DIV */
+.main_content{
+	margin-left: 350px;
+}
+
+/* CONTENT INSIDE CARD */
+.card-title{
+	font-size: 15px;
+	/* margin-left: -25px; */
+	letter-spacing: 0.3px;
+	font-weight: 500;
+}
+
+.card-price{
+	font-size: 21px;
+	/* margin-left: -25px; */
+	font-weight: bold;
+}
+
+.card-img-top{
+	height: 160px;
+	width: 100%;
+}
+
+/* PAGINATION */
+.page_links a{
+	color: grey;
+	font-size: 14px;
+}
+
+.page_links a:hover{
+	text-decoration: none;
+	color: black;	
+}
+
+
+.qty:hover{
+	border: none;
+	border-radius: 0;
+}
+
+.plus:hover{
+	border: none;
+}
+
+.minus:focus{
+	border: none;
+}

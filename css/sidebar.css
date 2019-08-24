@@ -1,0 +1,241 @@
+
+#mysidebar{
+	height: 125vh;
+	position: absolute;
+	z-index: 1;
+	width: 19vw;
+	background-color: black;
+	top: auto;
+	left: -19vw;
+	display: block;
+	margin-top: 38px;
+	padding-top: 10px;
+	overflow-x: hidden;
+	transition: left .5s cubic-bezier(0,.50,0,1);
+
+}
+
+#mysidebar.sidebar{
+	left: 0;
+}
+
+.sidebar li a{
+	font-size: 17px;
+	color: white;
+	font-family: roboto;
+	margin-top: 10px;
+	visibility: visible;
+}
+
+.sidebar li a:active{
+
+	color: red;
+	font-weight: bold;
+	background-color: red;
+}
+
+.user_name{
+	color: white;
+	font-size: 20px;
+	font-family: roboto;
+}
+
+.user_cat{
+	
+	margin-left: -40%;
+	color: white;
+	font-size: 15px;
+	font-family: roboto;
+	font-weight: 150;
+	font-style: italic;
+}
+
+
+.sidebar .closebtn{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 30px;
+}
+
+
+#main{
+	margin-left: 0;
+	transition: margin-left 0.3s cubic-bezier(0.2,0.76,1,1);
+}
+
+#drawersitems,#drawersitems:hover, #drawersitems:active{
+	background-color: transparent;
+	color: white;
+}
+ 
+#drawersitems:hover{
+	color: #5bc0de;
+}
+ 
+#drawersitems:active{
+	background-color: #5bc0de;
+	color: white;
+}
+
+
+
+
+.cards-section {
+  padding: 2%;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-header {
+  text-align: center;
+  padding: 5%;
+}
+
+.card-footer {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.icon-img {
+  width: 100px;
+  height: 100px;
+
+}
+
+.recent-section {
+  padding: 2%;
+}
+
+.card-body-upcoming {
+
+}
+
+.card-upcoming{
+	box-shadow : 0 0 4px gray;
+}
+
+.card-header-upcoming {
+  background-color: #aee7e8;
+  text-align: center;
+  padding: 2% 0;
+  color: black;
+}
+
+hr {
+  border-color: black;
+}
+
+#abhi{
+	z-index:1;
+	position:relative;
+	float:right;
+}
+
+.orders-list
+{
+	font-size: 18px;
+	font-family: roboto;
+	color: black;
+}
+
+.view-more{
+	font-family: helvetica;
+	letter-spacing: 1px;
+	font-size: 18px;
+	text-shadow: 1px 1px 2px silver;
+	text-decoration: none;
+}
+
+.view-more :hover{
+
+	text-decoration: none;
+	color: grey;
+}
+
+/* ---------------------------------------------------- */
+
+/* ACCOUNT SETTINGS */
+
+#settings{
+	transition: margin-left 0.4s cubic-bezier(0.2,0.76,1,1);
+	padding-left: 0.5%;
+}
+
+#settings-heading{
+	font-size: 38px;
+	font-family: roboto;
+	font-weight: 500;
+	word-spacing: 3px;
+}
+.fa-pen-alt:hover{
+	color: #5bc0de;
+}
+#close-settings{
+	cursor: pointer;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.account-list-heads{
+	font-size: 20px;
+	font-family: roboto;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.acct-info{
+	font-size: 15px;
+}
+.acct-info-title{
+	font-weight: bold;
+	font-family: roboto;
+	margin: auto 0;
+	letter-spacing: 0.5px;
+}
+.acct-input-type{
+	outline: none;
+	width: 60%;
+	border:none;
+	border-radius: 5px;
+	box-shadow: 0 0 2px silver;
+	padding: 3px 10px;
+	font-size: 16px;
+	color: grey;
+	background: none;
+}
+
+.input-type-password{
+	outline: none;
+	width: 60%;
+	border:none;
+	border-radius: 5px;
+	padding: 3px 10px;
+	font-size: 16px;
+	color: grey;	
+	background: none;
+}
+
+#passChange .form-group .form-control
+{
+	width: 100%;
+	border:none;
+	box-shadow: 0 0 6px silver;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.success-tick{
+	position: absolute;
+	right: 7%;
+	z-index: 2;
+}
+
+
+/* Hide HTML5 Up and Down arrows. */
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,79 @@
+
+.flex-column{
+	padding: 0;
+}
+
+/* kyd */
+#brand{
+	font-size: 32px;
+	font-family: roboto;
+	font-weight: 500;
+	color: #5bc0de;
+}
+
+/* .com */
+#brand_com{
+	font-size: 20px;
+	font-family: roboto;
+}
+
+/* subheading of kyd.com */
+#brand_subhead{
+	font-size: 14px;
+	text-shadow: 0 0 1px darkgrey;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+/* hi username */
+#greetings{
+	font-family: serif;
+	letter-spacing: 0.2px;
+	text-shadow: 0 0 2px silver;
+}
+
+
+#navbar2{
+	background-color: #5bc0de;
+}
+
+/* text inside card */
+.carousel_head{
+
+	font-size: 32px;
+	font-weight: 500;
+}
+
+/* the sub-heading inside the card */
+.carousel_sub_head{
+
+	font-size: 17px;
+	font-weight: 100;
+	font-family: serif;
+}
+
+/* categories card view */
+.card{
+	border: none;
+	transition: box-shadow 0.5s, transform 0.5s;
+
+}
+.card:hover{
+	transform: scale(1.03); 
+	cursor: pointer;
+	box-shadow: 0 0 14px silver;
+}
+
+
+#cart-count{
+	font-size: 14px;
+	font-weight: 600;
+	background: #002C3F;
+	border-radius: 30% 0%;
+	color: white;
+}
+
+
+
+
+

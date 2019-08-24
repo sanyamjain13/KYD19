@@ -1,0 +1,51 @@
+
+
+.card{
+	transform: none;
+	border:1px solid #eee;
+	box-shadow: 0 0 1px silver;
+}
+.card:hover{
+	transform: none;
+	box-shadow: none;
+}
+
+.card-body{
+	border-top: 1px solid #eee;
+}
+.price{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.pagers{
+	font-size: 13px;
+}
+.pagers a{
+	color: grey;
+}
+.pagers a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.desc-head
+{
+	font-size: 17px;
+	letter-spacing: 0.8px;
+	font-weight: bold;
+	font-family: roboto;
+}
+
+#product_section{
+	position: sticky;
+	position: -webkit-sticky;
+	top: 3px;
+}
+
+#description_section{
+	overflow: auto;
+	position: absolute;
+	left: 33%
+}
+

@@ -1,0 +1,49 @@
+
+#order{
+	transition: transform 0.5s;
+	margin: 0 4%;
+}
+
+#order:hover
+{	
+
+	transform: scale(1.02,1.02);
+	cursor: pointer;
+}
+
+#order_detail{
+	font-family: roboto;
+	font-weight: bold;
+	box-shadow: 0 0 14px silver;
+}
+
+#time_total{
+
+}
+
+.items{
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.order_links{
+	box-shadow: 0 0 3px  silver;
+}
+
+.order_links a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.heading{
+	font-family: sans-serif;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px grey;
+}
+
+
+
+
+
+

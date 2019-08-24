@@ -1,0 +1,155 @@
+body{
+  background-color: white;
+  font-family: "Montserrat";
+}
+/* NAVBAR */
+#title
+{ color: white;
+  background-color: black;
+
+}
+/* MIDDLE */
+#Middle{
+  background-color: white;
+  padding: 3% 2% 3% 2% ;
+
+}
+h4
+{
+ margin-bottom: 2%;
+  font-family: "Roboto";
+  color:red;
+}
+
+
+/* CAROUSEL */
+
+
+#slide
+{ background-color: black;
+  text-align: center;
+ position: relative;
+
+}
+.imgg
+{
+  height: 500px;
+
+}
+h5
+{
+  color: black;
+  font-size: 50px;
+  font-style: bold;
+}
+h2
+{
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+p
+{ line-height: 1.5;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 120px;
+  padding-right: 120px;
+
+}
+.textc{
+  font-size: 30px;
+  font-style: bold;
+  color:#414141;
+  margin-bottom: 10px;
+}
+
+/* DISRUPTER */
+
+.disruptor{
+  width: 300px;
+  background: transparent;
+  height: 100px;
+  position: relative;
+  z-index: 1;
+  float: right;
+  margin-right: 3%;
+  margin-top: -450px;
+}
+.side1{
+
+  margin:3%;
+  background-color: grey;
+  height:50px;
+  font-size:8px;
+  opacity: 0.75;
+  text-align: left;
+}
+
+.x{
+  margin-top: 2%;
+  margin-right:3%;
+  float: left;
+}
+
+a{
+  color:black;
+}
+a:hover {
+  color:#fe5f55;
+
+}
+.side1:hover{
+  background-color: #414141;
+}
+
+
+/* FEATURES */
+
+#features{
+  padding:7% 8%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+.one{
+  text-align: center;
+  padding: 1%;
+  font-weight: bold;
+}
+
+.fas{
+  color: black;
+  padding-top:2%;
+  font-size: 28px;
+}
+.f1{
+  color: grey;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.textf{
+  font-style: oblique;
+
+}
+
+/* FOOTER */
+
+#footer
+{
+  padding: 5% 15%;
+  text-align: center;
+  color:white;
+  background-color: black;
+
+}
+.foot{
+  color:white;
+}
+.f{
+  color:white;
+  margin: 20px 10px;
+  font-size: 20px;
+}

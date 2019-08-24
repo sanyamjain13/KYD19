@@ -1,0 +1,87 @@
+
+/* radio-button_size */
+.radiobtns{
+	transform: scale(1.1,1.1);
+}
+
+/* labels of payment modes eg name on card */
+.labels{
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+	font-family: roboto;
+	font-weight: bold;
+}
+
+/* input box of card numbers and texts */
+.input_box{
+	width: 100%;
+	border-radius: 6px;
+	border-style: none;
+	padding: 4.5px 10px;
+	border:1px solid lightgray;
+	font-size: 16px; 
+
+}
+
+/* flat icons of debit card credit card */
+.icons{
+	position: absolute;
+	z-index: 1;
+	right: 4%;
+	top: 20%;
+	color: #5bc0de;
+}
+
+#accordian{
+	box-shadow: 0 0 7px grey;
+	width: 40%;
+}
+
+/* card headers eg debit card,credit card,net banking */
+.card-header{
+	color: black;
+	letter-spacing: 1px;
+	font-family: roboto;
+	font-weight: 500;
+	margin: 5px 0;
+	box-shadow: 0 0 4px silver;
+	transition: transform 0.5s,box-shadow 0.5s;
+}
+
+.card-header:hover{
+	color: rgb(72,72,72);
+	cursor: pointer;
+	transform: scale(1.02,1.02);
+}
+
+.bank_icons{
+	width: 6%;
+	height: 6%;
+
+}
+
+#payment_heading{
+	font-size: 30px;
+	font-family: roboto;
+	letter-spacing: 2px;
+	font-weight: bold;
+	box-shadow: 0 0 7px grey;
+	padding: 0.6% 1%;
+}
+
+
+
+
+#payment_container{
+/*	box-shadow: 0 0 10px silver;
+*/	margin: 0 auto;
+	background: rgb(245,245,245);
+}
+
+/* removing up down arrow in input type=number
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button 
+{
+    -webkit-appearance: none;
+    margin: 0;
+} */

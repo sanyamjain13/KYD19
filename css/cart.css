@@ -1,0 +1,29 @@
+
+
+#previous_page_link a{
+	color: gray;
+	font-size: 15px;
+	word-spacing: 1px;
+}
+
+#previous_page_link a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.title{
+	font-size: 15px;
+	color: black;
+	letter-spacing: 1px;
+	font-family: roboto;
+	text-shadow: 0 0 1px grey;
+}
+
+.title_price{
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.remove_btn{
+	font-size: 17px;
+}

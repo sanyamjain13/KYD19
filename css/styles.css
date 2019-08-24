@@ -1,0 +1,99 @@
+body{
+  background-color: black;
+  margin:3% 5%;
+}
+
+h1{
+  font-family: "Roboto";
+  font-size: 5rem;
+}
+
+h2,h3,h4,h5,h6{
+
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size:1.2rem;
+}
+
+p{
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+.main-heading{
+  background-color: black;
+  color: white;
+  padding: 4% 9%;
+  text-align: center;
+
+}
+
+.disease{
+  background-color: white;
+  color: black;
+  padding: 3% 5%;
+  margin: 0 0;
+  text-align: left;
+}
+
+table{
+   /* margin:7% 0 0 23%; */
+   /* margin: auto; */
+   /* align =center; */
+}
+
+td,th{
+  /* border: 1px solid black; */
+  padding: 3% 7%;
+  text-align: center;
+}
+
+.facts{
+  background-color: black;
+  color: white;
+  padding: 3% 3%;
+  /* width:25%; */
+  /* margin: 0 10%; */
+  position: relative;
+  /* margin: 0 5%; */
+  border: black double;
+  border-width: thick;
+
+}
+
+/* facts:hover{
+  background-color: #b2d3be;
+} */
+
+hr{
+  border: dotted white 6px;
+  border-bottom: none;
+  width:7%;
+  margin: 80px auto;
+}
+
+
+
+#multi-item-example{
+  padding: 3% 7%;
+  margin: 2%;
+  width: 100%;
+}
+
+.card{
+  height:110%;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.a{
+  padding: 2% 2%;
+  text-align: center;
+}
+
+img{
+  height:200px;
+  width: 300px;
+}

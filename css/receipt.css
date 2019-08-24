@@ -1,0 +1,119 @@
+
+#navbar1 li a{
+	color: black;
+}
+
+#navbar1 li a:hover{
+
+	color: grey;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+#section1{
+	border-right: 1px solid lightgrey;
+}
+
+#order_msg{
+	font-size: 14px;
+	color: rgb(60,60,60);
+}
+
+#amount_mode_text{
+	font-size: 14px;
+}
+
+#name{
+	font-size: 24px;
+	font-weight: 500;
+	color: rgb(88,88,88);
+}
+#contact_no{
+	font-size: 14px;
+	color: rgb(104,104,104);
+}
+
+#address{
+	font-size: 14px;
+	color: rgb(104,104,104);
+	word-spacing: 1px;
+}
+
+#order_del_date{
+
+	font-size: 15px;
+	color: rgb(72,72,72);
+	border: 1px solid rgb(200,200,200);
+	font-family: roboto;
+	word-spacing: 2px;
+	background: #eee;
+}
+
+#box1_footer{
+	font-size: 18px;
+	word-spacing: 2px;
+	color: grey;
+	font-weight: 500;
+}
+
+#box1_footer a{
+	color:black;
+	font-size: 16px;
+}
+
+#box1_footer a:hover{
+	color:#585858;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.head{
+	font-size: 20px;
+	color: grey;
+	font-weight: bold;
+	font-family: roboto;
+	letter-spacing: 2px;
+}
+
+#order_summary{
+	font-size: 26px;
+	color: rgb(80,80,80);
+	font-weight: bold;
+}
+
+.product_info{
+	font-size: 17px;
+	color: black;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.price{
+	color: black; 
+	font-weight: bold; 
+	font-size: 20px;
+}
+
+.fa-check-circle
+{	
+	position: absolute;
+	color: lightgreen;
+	font-size: 27px;
+	box-shadow: 0 0 2px white;
+	z-index: 1;
+	left: 52%;
+	top: 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
